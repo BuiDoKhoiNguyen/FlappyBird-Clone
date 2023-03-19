@@ -1,1 +1,2 @@
-# FlappyBird-K67-BuiDoKhoiNguyen
+# FlappyBird-K67UET-BuiDoKhoiNguyen
+Tự làm đi đừng có chép
