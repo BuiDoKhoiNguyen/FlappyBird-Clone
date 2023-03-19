@@ -1,0 +1,12 @@
+﻿  bird.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\bird.cpp(51,42): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\bird.cpp(56,41): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\bird.cpp(61,41): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\bird.cpp(86,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\bird.cpp(109,49): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  game.cpp
+  main.cpp
+  Generating Code...
+x64\Debug\land.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\lib.obj : warning LNK4042: object specified more than once; extras ignored
+  Game.vcxproj -> C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\x64\Debug\Game.exe

@@ -1,0 +1,20 @@
+﻿  Bird.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Game.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  land.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  land.h
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  lib.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  lib.h
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  main.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  pipe.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  sound.cpp
+C:\Users\ASUS\OneDrive\Máy tính\My Game ProEdition\Game\lib.h(3,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  text.cpp
+  Generating Code...
