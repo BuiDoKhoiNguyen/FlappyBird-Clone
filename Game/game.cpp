@@ -10,11 +10,11 @@ void game::takeInput()
 			userInput.Type = input::QUIT;
 			quit = true;
 		}
-		else if (event.type == SDL_MOUSEBUTTONDOWN || (event.type == SDL_KEYDOWN && (event.key.keysym.sym == SDLK_SPACE || event.key.keysym.sym == SDLK_UP) ) )
+		else if (event.type == SDL_MOUSEBUTTONDOWN || (event.type == SDL_KEYDOWN && (event.key.keysym.sym == SDLK_SPACE || event.key.keysym.sym == SDLK_UP)))
 		{
 			userInput.Type = input::PLAY;
 		}
-		else if ( ( event.type==SDL_MOUSEBUTTONUP && changePauseTab()==true ) || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE && event.key.repeat == 0))
+		else if ((event.type == SDL_MOUSEBUTTONUP && changePauseTab() == true) || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE && event.key.repeat == 0))
 		{
 			userInput.Type = input::PAUSE;
 		}
@@ -107,7 +107,7 @@ bool game::initGraphic()
 					success = false;
 				}
 
-			} 
+			}
 		}
 	}
 
@@ -137,7 +137,7 @@ void game::renderScore(bool state)
 	else
 	{
 		SDL_Rect scorePos = { 156,25,40, 70 };
-		if ( score >= 10) scorePos.w = 60;
+		if (score >= 10) scorePos.w = 60;
 		SDL_RenderCopy(gRenderer, Texture, NULL, &scorePos);
 	}
 }
@@ -208,16 +208,32 @@ void game::renderLand()
 void game::resume()
 {
 	LTexture image;
-	image.Load("image/resume.png", 1);
-	image.Render(SCREEN_WIDTH - 50, 20);
+	if (changePauseTab())
+	{
+		image.Load("image/resumebig.png", 1);
+		image.Render(SCREEN_WIDTH - 50-10, 20-10);
+	}
+	else
+	{
+		image.Load("image/resume.png", 1);
+		image.Render(SCREEN_WIDTH - 50, 20);
+	}
 	image.free();
 }
 
 void game::pause()
 {
 	LTexture image;
-	image.Load("image/pause.png", 1);
-	image.Render(SCREEN_WIDTH - 50, 20);
+	if (changePauseTab())
+	{
+		image.Load("image/pausebig.png", 1);
+		image.Render(SCREEN_WIDTH - 50-10, 20-10);
+	}
+	else
+	{
+		image.Load("image/pause.png", 1);
+		image.Render(SCREEN_WIDTH - 50, 20);
+	}
 	image.free();
 }
 
@@ -309,8 +325,17 @@ void game::renderMedal()
 void game::replay()
 {
 	LTexture image;
-	image.Load("image/replay.png", 1);
-	image.Render((SCREEN_WIDTH - image.getWidth()) / 2, 380);
+
+	if (checkReplay())
+	{
+		image.Load("image/replaybig.png", 1);
+		image.Render(((SCREEN_WIDTH - image.getWidth()) / 2) - 5, 380 - 5);
+	}
+	else
+	{
+		image.Load("image/replay.png", 1);
+		image.Render((SCREEN_WIDTH - image.getWidth()) / 2, 380);
+	}
 	image.free();
 }
 
