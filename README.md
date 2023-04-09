@@ -1,4 +1,4 @@
-**Flappy Bird**
+# **Flappy Bird**
 
 #### Mục lục
 1. [Giới thiệu](#introduction)
@@ -9,7 +9,7 @@
 
 * Game được tạo bằng cách sử dụng [SDL2](https://www.libsdl.org/download-2.0.php) và C++.
 
-_*Game đã được tham khảo và chỉnh sửa 
+* Game đã được tham khảo và chỉnh sửa 
 
 
 # Tính năng <a name="features"></a>
@@ -30,7 +30,7 @@ _*Game đã được tham khảo và chỉnh sửa
 * Hiển thị huy chương tương ứng với số điểm (Vàng > 50, Bạc > 20, Danh dự <= 20).
 * Xem điểm hiện tại, điểm cao nhất
 
-# How to play <a name="play"></a>
+# Cách chơi <a name="play"></a>
 * Kích chuột hoặc nhấn phím SPACE/UP để chơi.
 * Nhấn ESC để tạm dừng
 
