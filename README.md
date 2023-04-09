@@ -4,19 +4,15 @@
 1. [Giới thiệu](#introduction)
 2. [Tính năng](#features)
 3. [Cách chơi](#play)
-4. [Cách cài đặt](#installation)
 
-# Introduction <a name="introduction"></a>
+# Giới thiệu <a name="introduction"></a>
 
 * Game được tạo bằng cách sử dụng [SDL2](https://www.libsdl.org/download-2.0.php) và C++.
 
 _*Game đã được tham khảo và chỉnh sửa 
 
-<p align="center">
-<img width="640" height="480" src="https://i.pinimg.com/originals/02/98/fa/0298fa4e7f8b0495169b2e964f06d7f2.jpg">
-</p>
 
-# Feature <a name="features"></a>
+# Tính năng <a name="features"></a>
 
 **1. GameWindow**
 * Xử lý va chạm giữa nhân vật và đường ống, mặt đất, đường viền trên cửa sổ
@@ -38,12 +34,7 @@ _*Game đã được tham khảo và chỉnh sửa
 * Kích chuột hoặc nhấn phím SPACE/UP để chơi.
 * Nhấn ESC để tạm dừng
 
-<p align="center">
-<img src="https://i.imgur.com/dvni6mF.png">
-</p>
-
-# Installation <a name="installation"></a>
-
 >> một số hình ảnh về Game
 
 <img src="https://user-images.githubusercontent.com/123927630/230642952-c093d07c-0b6d-469a-b06b-c89671cbaa9d.png" alt="https://user-images.githubusercontent.com/123927630/230642952-c093d07c-0b6d-469a-b06b-c89671cbaa9d.png" width="260" /> <img src="https://user-images.githubusercontent.com/123927630/230642954-95c2a9aa-c46e-4392-a95e-38f401501f10.png" alt="https://user-images.githubusercontent.com/123927630/230642954-95c2a9aa-c46e-4392-a95e-38f401501f10.png" width="250" /> <img src="https://user-images.githubusercontent.com/123927630/230642959-0788c580-a086-4e67-8ce0-64256c76153f.png" alt="https://user-images.githubusercontent.com/123927630/230642959-0788c580-a086-4e67-8ce0-64256c76153f.png" width="250" />
+
